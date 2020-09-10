@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url("bg1.jpg");
+
+}
+
+#box{
+    padding-left:35%;
+    padding-top: 5%;
+}
+
+input{
+
+    font-family: 'Lato', sans-serif;
+    width: 400px;
+    height: 50px;
+    
+}
+
+input[type=submit]{
+    background-color: green;
+}
+
+input[type=reset]{
+    background-color: red;
+}

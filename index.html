@@ -1,0 +1,37 @@
+<html>
+
+<head>
+  <title>E Pass Registration</title>
+  <link rel="stylesheet" href="style.css">
+
+</head> 
+
+<body>
+  <div id="box">
+    <form name="form" action="" onsubmit="return validateform()">
+
+      <input type="text" id="name" name="name" placeholder="Enter Full Name" required><br>
+      <input type="text" id="cnumber" name="cnumber" placeholder="Enter Contact Number (Numeric Only)" minlength="10" maxlength="10" pattern="[1-9]{1}[0-9]{9}"><br>
+      <input type="email" id="email" name="email" placeholder="Email Id" required><br>
+      <input type="text" id="address" name="address" placeholder="Enter Address" required><br>
+      <input type="text" id="source" name="source" placeholder="Want to go from (Alphabets Only)" pattern="[A-Za-z]{3}" required><br>
+      <input type="text" id="destination" name="destination" placeholder="want to go at (Alphabets Only)" pattern="[A-Za-z]{3}" required><br>
+      <input type="text" id="vnumber" name="vnumber"  placeholder="Enter Vehicle Number without space" maxlength="10" required><br>
+      <input type="date" id="doj" name="doj" placeholder="Enter Date of Journey" required><br>
+      <input type="submit" placeholder="Submit"><br>
+      <input type="reset" placeholder="Clear"><br>
+
+
+    </form>
+
+  </div>
+<script>
+
+</script>
+ 
+
+</body>
+
+
+</html>
+
