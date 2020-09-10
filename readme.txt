@@ -1,6 +1,5 @@
 These 3 files are by Prasad Ravindra Vaskar.
-Roll Number 24
-Seat Number 622617
+
 problem statement
 registration form for E-PASS is required for the Municipal Corporation
 to get the details of each Passenger.
